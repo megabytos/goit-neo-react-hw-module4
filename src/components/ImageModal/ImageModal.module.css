@@ -1,0 +1,60 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.modal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  border: 0;
+  background: rgb(0, 0, 0);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  cursor: auto;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 0 auto;
+  max-height: calc(100vh - 70px);
+}
+
+.description {
+  padding: 10px 20px 0px 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
+.close {
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  z-index: 10000;
+  margin-top: -12px;
+  margin-right: -12px;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  font-family: Arial, monospace;
+  color: #fff;
+  font-weight: 500;
+  border: 0 none;
+  border-radius: 12px;
+  background: #000;
+  font-size: 16px;
+  padding: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.loadMore {
+  padding: 10px 32px;
+  margin: 10px auto;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #3e3fa3;
+}
